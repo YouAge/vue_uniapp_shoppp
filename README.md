@@ -33,6 +33,8 @@ uniapp实现， 小程序 app端 仿京东，淘宝，苏宁易购等功能的�
 ![](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/5.jpg)
 
 
+图片显示
+
 <video src="https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/mp1.MP4" controls="controls"></viedo>
 
 
