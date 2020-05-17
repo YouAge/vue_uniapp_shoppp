@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "填写订单",
-  "usingComponents": {
-    "good-shop": "/component/commont/GoodShop",
-    "coupon": "/component/commont/Coupon",
-    "list-column": "/component/commont/ListColumn"
-  }
-}

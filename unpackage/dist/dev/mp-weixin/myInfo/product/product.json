@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "商品详情",
-  "usingComponents": {
-    "share": "/component/commont/Share",
-    "conmment": "/component/index/comment",
-    "number-add": "/component/NumberAdd",
-    "coard": "/component/commont/Coard"
-  }
-}

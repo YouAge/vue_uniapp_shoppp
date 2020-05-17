@@ -5,28 +5,7 @@
 		onLaunch: function() {
 		    console.log('App Launch')
 			// 打开软件， 判断手机类型， CustomBar获取顶部高度，导航栏
-		    uni.getSystemInfo({
-		        success: function (e) {
-		            // #ifndef MP
-		            Vue.prototype.StatusBar = e.statusBarHeight;
-		            if (e.platform === 'android') {
-		                Vue.prototype.CustomBar = e.statusBarHeight + 50;
-		            } else {
-		                Vue.prototype.CustomBar = e.statusBarHeight + 45;
-		            }
-		            // #endif
-		            // #ifdef MP-WEIXIN
-		            Vue.prototype.StatusBar = e.statusBarHeight;
-		            let custom = wx.getMenuButtonBoundingClientRect();  // 获取小程序，右边胶囊按钮
-		            Vue.prototype.CustomBar = custom;
-		            Vue.prototype.CustomBar = custom.bottom + custom.top - e.statusBarHeight;
-		            // #endif
-		            // #ifdef MP-ALIPAY
-		            Vue.prototype.StatusBar = e.statusBarHeight;
-		            Vue.prototype.CustomBar = e.statusBarHeight + e.titleBarHeight;
-		            // #endif
-		        }
-		    }),
+
 			// 全局色彩
 		    Vue.prototype.ColorList = 
 			[{
