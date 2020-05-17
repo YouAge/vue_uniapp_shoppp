@@ -20,14 +20,19 @@ uniapp实现， 小程序 app端 仿京东，淘宝，苏宁易购等功能的�
 主要是功能适配小程序和app端， 后续会继续增加app端的相关sdk功能，
 
 
-<video src="./video/mp1.MP4" controls="controls"></viedo>
+
+
 ![](./video/img/1.jpg)
+
 ![](./video/img/2.jpg)
+
 ![](./video/img/3.jpg)
+
 ![](./video/img/4.jpg)
+
 ![](./video/img/5.jpg)
 
 
-
+<video src="./video/mp1.MP4" controls="controls"></viedo>
 
 

@@ -27,12 +27,7 @@
 			"style": {
 				"navigationBarTitleText": "购物车"
 			}
-		}, {
-			"path": "pages/cetop/cetop",
-			"style": {
-				
-			}
-		}, {
+		},  {
 			"path": "pages/goods/goods",
 			"style": {
 				"navigationBarTitleText": "商品搜索"
