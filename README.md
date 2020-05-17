@@ -22,15 +22,15 @@ uniapp实现， 小程序 app端 仿京东，淘宝，苏宁易购等功能的�
 
 
 
-![](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/1.jpg)
+![图片1](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/1.jpg)
 
-![](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/2.jpg)
+![图片2](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/2.jpg)
 
-![](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/3.jpg)
+![图片3](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/3.jpg)
 
-![](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/4.jpg)
+![图片4](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/4.jpg)
 
-![](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/5.jpg)
+![图片5](https://github.com/YouAge/vue_uniapp_shoppp/tree/master/video/img/5.jpg)
 
 
 图片显示
