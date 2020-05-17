@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/cetop/cetop",
+    "pages/goods/goods",
+    "pages/search/search",
+    "pages/orderItems/orderItems"
+  ],
+  "subPackages": [
+    {
+      "root": "myInfo",
+      "pages": [
+        "my-address/my-address",
+        "my-address/addInfo",
+        "my-orders/my-orders",
+        "sett/sett",
+        "login/login",
+        "login/register",
+        "login/resetpasswd",
+        "product/product",
+        "payment/payment",
+        "payment/paysucceed"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2a4d",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/taber/home.png",
+        "selectedIconPath": "/static/taber/home-o.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/static/taber/category.png",
+        "selectedIconPath": "/static/taber/category-o.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/static/taber/cart.png",
+        "selectedIconPath": "/static/taber/cart-o.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/taber/my.png",
+        "selectedIconPath": "/static/taber/my-o.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

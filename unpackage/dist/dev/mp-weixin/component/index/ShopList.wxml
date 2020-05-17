@@ -1,0 +1,1 @@
+<view class="product-container data-v-ac18c9da"><block wx:for="{{productList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="product-item data-v-ac18c9da"><shop-item vue-id="{{'51c73a55-1-'+index}}" Product="{{item}}" class="data-v-ac18c9da" bind:__l="__l"></shop-item></view></block></view>

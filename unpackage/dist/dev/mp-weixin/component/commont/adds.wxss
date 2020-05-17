@@ -1,0 +1,22 @@
+.content.data-v-46420efa {
+  left: 30rpx !important;
+}
+.tag.data-v-46420efa {
+  font-size: 24rpx;
+  color: red;
+  margin-right: 10rpx;
+  background: #fffafb;
+  border: 1px solid #ffb4c7;
+  border-radius: 4rpx;
+  padding: 4rpx 10rpx;
+  line-height: 1;
+}
+.box-text.data-v-46420efa {
+  font-size: 28rpx;
+  color: #909399;
+  margin-top: 16rpx;
+}
+.box-text .name.data-v-46420efa {
+  margin-right: 30rpx;
+}
+

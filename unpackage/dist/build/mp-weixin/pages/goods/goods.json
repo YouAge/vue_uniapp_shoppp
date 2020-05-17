@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品搜索",
+  "usingComponents": {
+    "shop-list": "/component/index/ShopList",
+    "socll-but": "/component/commont/SocllBut"
+  }
+}

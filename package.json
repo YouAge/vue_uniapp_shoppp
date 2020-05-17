@@ -1,0 +1,19 @@
+{
+  "name": "weixinshangcheng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colorui": "^1.0.0",
+    "mock": "^0.1.1",
+    "mockjs": "^1.1.0",
+    "unifly": "^1.0.2",
+    "vuex": "^3.3.0",
+    "vuex-persistedstate": "^3.0.1"
+  }
+}

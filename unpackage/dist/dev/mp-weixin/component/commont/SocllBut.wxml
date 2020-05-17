@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['topScrollTap',['$event']]]]]}}" class="{{['scroll_top data-v-ea1dda3c',scrollTop?'active':'','']}}" bindtap="__e"><text class="cuIcon-usefullfill data-v-ea1dda3c"></text></view>

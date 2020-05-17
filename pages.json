@@ -1,0 +1,159 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商城首页",
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#dd524d"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/category/category",
+			"style": {
+					"navigationBarTitleText": "商品列表"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/cetop/cetop",
+			"style": {
+				
+			}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "商品搜索"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {}
+		}, {
+			"path": "pages/orderItems/orderItems",
+			"style": {
+				"navigationBarTitleText": "填写订单"
+			}
+		}
+	],
+	// 小程序分包
+	"subPackages": [{
+			"root": "myInfo",
+			"pages": [{
+					"path": "my-address/my-address",
+					"style": {
+						"navigationBarTitleText": "收获地址"
+					}
+				},
+				{
+					"path": "my-address/addInfo",
+					"style": {
+						"navigationBarTitleText": "地址页面"
+					}
+				}, {
+					"path": "my-orders/my-orders",
+					"style": {
+						"navigationBarTitleText": "我的订单"
+					}
+				}, {
+					"path": "sett/sett",
+					"style": {
+						"navigationBarTitleText": "设置中心"
+					}
+				}, 
+		
+				{
+					"path": "login/login",
+					"style": {
+						"navigationBarTitleText": "登入"
+					}
+				}, {
+					"path": "login/register",
+					"style": {
+						"navigationBarTitleText": "注册"
+					}
+				}, {
+					"path": "login/resetpasswd",
+					"style": {
+						"navigationBarTitleText": "重置密码"
+					}
+				}, 
+		
+				{
+					"path": "product/product",
+					"style": {
+						"navigationBarTitleText": "商品详情",
+						// "navigationStyle": "custom",
+						// "enablePullDownRefresh": true,
+						"app-plus":{
+							// 滚动条是否显示
+							"scrollIndicator":"none"
+						}
+					}
+				}, {
+					"path": "payment/payment",
+					"style": {
+						"navigationBarTitleText": "在线支付"
+					}
+				}, {
+					"path": "payment/paysucceed",
+					"style": {
+						"navigationBarTitleText": "支付成功"
+					}
+				}
+			]
+		}
+
+
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "微信商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#ff2a4d",
+		"backgroundColor": "#fafafa",
+		"borderStyle": "black",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/taber/home.png",
+				"selectedIconPath": "/static/taber/home-o.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "/static/taber/category.png",
+				"selectedIconPath": "/static/taber/category-o.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "/static/taber/cart.png",
+				"selectedIconPath": "/static/taber/cart-o.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/static/taber/my.png",
+				"selectedIconPath": "/static/taber/my-o.png"
+			}
+		]
+	}
+}

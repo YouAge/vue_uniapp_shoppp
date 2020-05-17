@@ -1,0 +1,21 @@
+
+.product-container.data-v-ac18c9da {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.product-container.data-v-ac18c9da:last-child {
+	margin-right: 0;
+}
+.product-item.data-v-ac18c9da{
+	width: 48%;
+	margin-right: 2%;
+}
+

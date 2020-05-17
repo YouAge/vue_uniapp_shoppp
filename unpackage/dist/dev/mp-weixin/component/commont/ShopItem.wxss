@@ -1,0 +1,61 @@
+
+.tui-pro-item.data-v-42b17ad1 {
+	width: 100%;
+	margin-bottom: 4%;
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 12rpx;
+	overflow: hidden;
+}
+.tui-pro-img.data-v-42b17ad1 {
+	width: 100%;
+	display: block;
+}
+.tui-pro-content.data-v-42b17ad1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 20rpx;
+}
+.tui-pro-tit.data-v-42b17ad1 {
+	color: #2e2e2e;
+	font-size: 26rpx;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.tui-pro-price.data-v-42b17ad1 {
+	padding-top: 18rpx;
+}
+.tui-sale-price.data-v-42b17ad1 {
+	font-size: 34rpx;
+	font-weight: 500;
+	color: #e41f19;
+}
+.tui-factory-price.data-v-42b17ad1 {
+	font-size: 24rpx;
+	color: #a0a0a0;
+	text-decoration: line-through;
+	padding-left: 12rpx;
+}
+.tui-pro-pay.data-v-42b17ad1 {
+	padding-top: 10rpx;
+	font-size: 24rpx;
+	color: #656565;
+}
+
+
+
